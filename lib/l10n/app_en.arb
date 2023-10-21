@@ -1,0 +1,17 @@
+{ 
+    
+    
+    "langaue": "English",
+   
+     
+    "fullName": "Full Name",
+   
+     "email": "Email",
+     "phoneNumber":"Phone Number",
+     "changeTheme":"Change Theme",
+     "changeLanguge":"Change Language",
+     "logout":"Logout"
+     
+    
+    
+}
