@@ -197,6 +197,7 @@ class DrawerWidget extends ConsumerWidget {
               onPressed: () {
                 ref.read(userProvider.notifier).signout();
                 ref.read(appThemeProvider.notifier).state = false;
+              
                 context.go(
                   RouteLocation.signUp,
                 );

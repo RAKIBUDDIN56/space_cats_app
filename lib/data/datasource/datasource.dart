@@ -22,7 +22,6 @@ class Datasource {
   Future<Database> _initDb() async {
     final dbPath = await getDatabasesPath();
     final path = join(dbPath, 'test.db');
-
     return await openDatabase(
       path,
       version: 1,
@@ -54,6 +53,7 @@ class Datasource {
       user.id = userId;
       Services.user = user;
       setUserData(user);
+
       return userId;
     });
   }
